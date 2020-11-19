@@ -29,4 +29,5 @@ export const {
   getRecipesFailure,
 } = recipeSlice.actions;
 
+export const receipesSelector = (state) => state.reducer.recipes;
 export default recipeSlice.reducer;
